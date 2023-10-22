@@ -1,0 +1,96 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+#login{
+ 
+  
+  
+  justify-content:center;
+  text-align: center;
+  
+}
+#area{
+  
+  justify-content: center;
+  text-align: center;
+      margin-left: 0px;
+}
+#badge{
+  margin-left: 0.07cm;
+}
+
+
+
+/*#signup{
+  display: flex;
+  margin-top: 200px;
+  text-align: center;
+  justify-content:center;
+  
+}*/
+
+
+body.lbg{
+  background-image: url('https://source.unsplash.com/random/1920x1080/?fruit')
+}
+
+.login-container {
+  display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: flex-start;
+  
+  background: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to your login container */
+  
+  text-align: center;
+  justify-content:center;
+
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 200px auto; /* Center the login container horizontally */
+  color: black;
+}
+#test{
+  display: flex;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.try{
+  margin-right: 67%;
+}
+.try1{
+  margin-right: 78%;
+}
+
+.signup-container {
+  /*display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: flex-start;
+  
+  background: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to your login container */
+  
+  text-align: center;
+  justify-content:center;
+
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 17vh auto; /* Center the login container horizontally */
+  color: black;
+}
+.try2{
+  margin-right: 83%;
+}
+td{
+  color: white;
+}
+
+
+#navcolor{
+  background-color: rgb(193 233 153 / 26%);;
+}
