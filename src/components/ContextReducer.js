@@ -25,8 +25,8 @@ const reducer=(state,action)=>{
                 //return arr
             })
             return arr
-        case "DROP":
-          let emp=[]
+        case "DROP":  
+        let emp=[]
           return emp
         default:
             break;

@@ -13,6 +13,7 @@ import Signup from './screens/Signup';
 import { CartProvider } from './components/ContextReducer';
 import { useContext } from 'react';
 import MyOrder from './screens/MyOrder';
+import Confirm from './screens/Confirm';
 /*const mongo=require('mongoose');
 const db='mongodb+srv://bikesh:root@cluster0.eve5qul.mongodb.net/khana?retryWrites=true&w=majority&appName=AtlasApp'
 mongo.connect(db).then(()=>{
@@ -32,7 +33,7 @@ export default function App() {
   <Route exact path='/login' element={<Login/>}/>
   <Route exact path='/Signup' element={<Signup/>}/>
   <Route exact path='/myOrder' element={<MyOrder/>}/>
-
+  <Route exact path='/orderplaced' element={<Confirm/>}/>
       </Routes>
       </div>
       </Router>
